@@ -3,12 +3,10 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 import java.util.ArrayList;
 
 public class BinaryTree{
 	public Node root = null;
-	public Node parent = null;
 	public int numberOfWord = 0;
 	
 	public void init() throws IOException {
